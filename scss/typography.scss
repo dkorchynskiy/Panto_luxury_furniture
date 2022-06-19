@@ -1,0 +1,55 @@
+.section {
+  &-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    color: $black;
+
+    @include media(md) {
+      font-size: 42px;
+      line-height: 63px;
+    }
+  }
+
+  &-highlight {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: $black;
+    opacity: 0.9;
+
+    @include media(md) {
+      font-weight: 600;
+    }
+  }
+  &-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: $black;
+    opacity: 0.8;
+
+    &--bigger {
+      font-size: 18px;
+    }
+  }
+}
+
+.arrow-link {
+  @include flex(center);
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.8;
+
+  color: $orange;
+
+  &::after {
+    content: url(../images/arrow-right.svg);
+    margin-left: 11.5px;
+    line-height: 10px;
+  }
+}

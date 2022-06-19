@@ -1,0 +1,33 @@
+$white: #ffffff;
+$black: #1e1e1e;
+$light-grey: #f7f7f7;
+$grey: #eeeeee;
+$orange: #e58411;
+$light-orange: #f6b76f;
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: $black;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.desktop-only {
+  display: none;
+
+  @include media(lg) {
+    display: inherit;
+  }
+}
+
+.mobile-only {
+  @include media(lg) {
+    display: none;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "panto_luxury_furniture",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkorchynskiy/Panto_luxury_furniture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkorchynskiy/Panto_luxury_furniture/issues"
+  },
+  "homepage": "https://github.com/dkorchynskiy/Panto_luxury_furniture#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  }
+}
