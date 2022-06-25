@@ -1,5 +1,6 @@
 .benefits-wrapper {
   padding-top: 80px;
+  padding-bottom: 80px;
 
   @include media(lg) {
     @include flex(center, space-between);
